@@ -4,7 +4,7 @@
 
 使用方式
 ```JAVA
-@MysqlWatcher(hostName = "test-db", database = "test_binlog", table = "test_table1")
+@MysqlWatcher(hostName = "yzh111", database = "test", table = "test_table1")
 public class TestTable1Watcher implements IMysqlDataListener<TestTable1> {
 
     private Logger logger = LoggerFactory.getLogger(TestTable1Watcher.class);
